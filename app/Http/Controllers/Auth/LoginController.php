@@ -42,6 +42,7 @@ class LoginController extends Controller
 
     protected function authenticated(Request $request, $user)
     {
+        var_dump($user);exit;
         return $user;
     }
 
